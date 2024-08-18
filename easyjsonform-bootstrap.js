@@ -131,7 +131,7 @@ var ejfBootstrapStyle = {
         style: {},
     },
     FieldTextgroupGroup: {
-        classList: ['d-flex','flex-nowrap','justify-content-between','align-items-stretch'],
+        classList: ['d-flex','flex-wrap','justify-content-between','align-items-stretch'],
         style: {},
     },
     FieldTextgroupItem: {
@@ -140,7 +140,7 @@ var ejfBootstrapStyle = {
     },
     FieldTextgroupItemLabel: {
         classList: ['input-group-text'],
-        style: {},
+        style: {"min-width" : "15%"},
     },
     FieldTextgroupItemInput: {
         classList: ['form-control'],
